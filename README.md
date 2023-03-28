@@ -18,3 +18,7 @@ This code simulates the propagation of agents in a universe over discrete time s
 ### Other possibilities:
 
 Customize the app to take user input and use it for generating `n` number of data points for plotting.
+
+We can move QRangeStore to some other file and make a package for it and reuse it in some other applications, it will help us to make our code extensible.
+
+Progagate Method is for a specific algo, we can make it generic by passing them few parameters and based on those we have update its behaviour.
